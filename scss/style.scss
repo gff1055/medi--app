@@ -1,0 +1,177 @@
+/*Cabecalho*/
+
+@import "variaveis.scss";
+
+/*.cabecalho{
+	
+}*/
+
+body{
+	font-family: $fonte-geral;
+}
+
+.tela-opacidade{
+	background-color: rgba(255,255,255,0.8);
+}
+
+.bck-image{
+	background-image: url("../images/back.png");
+}
+
+.area-logotipo{
+	font-family: 'Norican', cursive;
+	font-size: 6rem;
+	text-align: center;
+	padding: 1rem 0 1rem 0;
+	color: $cor-primaria-2;
+	height: 8rem;
+}
+
+
+.area-menu{
+	margin-top: 4rem;
+	font-size: .8rem;
+	text-align: center;
+	color: $cor-primaria-2;
+	font-weight: bold;
+}
+
+
+.opcao-menu{
+	padding: .4rem;
+
+	&:hover{
+		color: white;
+		background-color: $cor-terciaria;
+		cursor: pointer;
+		border-radius: 1rem;
+		transition: .2s;
+	}
+
+	& a{
+		color:inherit;
+		text-decoration: none;
+		font-family: $fonte-geral;
+	}
+
+	& .div-link{
+		padding: .4rem
+	}
+}
+
+
+ul{
+	list-style-type: disc; 
+	list-style-position: inside;
+}
+
+
+li{
+	margin: 1rem 0 1rem 4rem;
+}
+
+
+	
+.area-descricao{
+	margin-top: 4rem;
+	padding-bottom: 2rem;
+
+	& h1{
+		font-size: $tamanho-txt-titulo;
+		color: $cor-secundaria-2;
+	}
+
+	& h2{
+		margin-top: 2rem;
+		font-size: $tamanho-txt-titulo-2;
+		color: $cor-primaria-2;
+	}
+
+
+	& p{
+		margin-top: 2rem;
+		font-size: $tamanho-txt-paragrafo;
+	}
+}
+
+.area-imagem{
+			
+	& img{
+		width: 100%;
+		border-radius: 1rem;		
+	}
+}
+
+
+
+.dv-saiba-mais{
+
+	margin: 2rem 0 2rem 0;
+
+	& .btn-saiba-mais{
+	padding: 1rem 4rem;
+	background-color: $cor-primaria-2;
+	border-radius: 2rem;
+	color:white;
+	text-decoration: none;
+	font-family: $fonte-geral;
+	transition: .1s;
+
+		&:hover{
+			background-color: lighten($cor-primaria-2, 13);
+			transition: .1s;
+		}
+	}
+}
+
+.redes-sociais{
+	margin: 2rem;
+	text-align: center;
+	color: $cor-primaria-2;
+	
+
+	& svg{
+		margin: 1rem;
+		width: 3rem;
+		height: 3rem;
+		font-size: 1rem;
+	}
+}
+
+@media (min-width: 800px){
+	.area-descricao{
+		& h1{
+			font-size: $tamanho-txt-titulo-less;
+			color: $cor-secundaria-2;
+		}
+	
+		& h2{
+			margin-top: 1rem;
+			font-size: $tamanho-txt-titulo-2-less;
+			color: $cor-primaria-2;
+		}
+	
+		& p{
+			margin-top: 1rem;
+			font-size: $tamanho-txt-paragrafo-less;
+		}
+	}
+	
+	.area-imagem{
+
+		vertical-align: middle;
+		display:inline;
+			
+		& img{
+			width: 100%;
+			border-radius: 1rem;		
+		}
+	}
+
+	li{
+		margin:0.5rem 0 0 0;
+		font-size: $tamanho-txt-paragrafo-less;
+	}
+}
+
+

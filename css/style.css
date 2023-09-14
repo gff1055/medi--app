@@ -1,0 +1,143 @@
+/*Cabecalho*/
+@import url("https://fonts.googleapis.com/css2?family=Norican&family=Open+Sans:wght@300&display=swap");
+/*.cabecalho{
+
+}*/
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.tela-opacidade {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.bck-image {
+  background-image: url("../images/back.png");
+}
+
+.area-logotipo {
+  font-family: "Norican", cursive;
+  font-size: 6rem;
+  text-align: center;
+  padding: 1rem 0 1rem 0;
+  color: #1A8D96;
+  height: 8rem;
+}
+
+.area-menu {
+  margin-top: 4rem;
+  font-size: 0.8rem;
+  text-align: center;
+  color: #1A8D96;
+  font-weight: bold;
+}
+
+.opcao-menu {
+  padding: 0.4rem;
+}
+.opcao-menu:hover {
+  color: white;
+  background-color: #5FC1C9;
+  cursor: pointer;
+  border-radius: 1rem;
+  transition: 0.2s;
+}
+.opcao-menu a {
+  color: inherit;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+}
+.opcao-menu .div-link {
+  padding: 0.4rem;
+}
+
+ul {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+li {
+  margin: 1rem 0 1rem 4rem;
+}
+
+.area-descricao {
+  margin-top: 4rem;
+  padding-bottom: 2rem;
+}
+.area-descricao h1 {
+  font-size: 3rem;
+  color: #C95F9D;
+}
+.area-descricao h2 {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  color: #1A8D96;
+}
+.area-descricao p {
+  margin-top: 2rem;
+  font-size: 1rem;
+}
+
+.area-imagem img {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.dv-saiba-mais {
+  margin: 2rem 0 2rem 0;
+}
+.dv-saiba-mais .btn-saiba-mais {
+  padding: 1rem 4rem;
+  background-color: #1A8D96;
+  border-radius: 2rem;
+  color: white;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  transition: 0.1s;
+}
+.dv-saiba-mais .btn-saiba-mais:hover {
+  background-color: #24c2cf;
+  transition: 0.1s;
+}
+
+.redes-sociais {
+  margin: 2rem;
+  text-align: center;
+  color: #1A8D96;
+}
+.redes-sociais svg {
+  margin: 1rem;
+  width: 3rem;
+  height: 3rem;
+  font-size: 1rem;
+}
+
+@media (min-width: 800px) {
+  .area-descricao h1 {
+    font-size: 1.2rem;
+    color: #C95F9D;
+  }
+  .area-descricao h2 {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    color: #1A8D96;
+  }
+  .area-descricao p {
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+  .area-imagem {
+    vertical-align: middle;
+    display: inline;
+  }
+  .area-imagem img {
+    width: 100%;
+    border-radius: 1rem;
+  }
+  li {
+    margin: 0.5rem 0 0 0;
+    font-size: 1rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
